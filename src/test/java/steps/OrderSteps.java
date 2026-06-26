@@ -1,3 +1,6 @@
+package steps;
+
+import models.Order;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 
@@ -21,17 +24,6 @@ public class OrderSteps {
     public ValidatableResponse createOrderWithoutAuth(Order order) {
         return given()
                 .header("Content-type", "application/json")
-                .body(order)
-                .when()
-                .post(ORDER_PATH)
-                .then();
-    }
-
-    @Step("Создание заказа с невалидным хешем ингредиента")
-    public ValidatableResponse createOrderWithInvalidIngredient(Order order, String accessToken) {
-        return given()
-                .header("Content-type", "application/json")
-                .header("Authorization", accessToken)
                 .body(order)
                 .when()
                 .post(ORDER_PATH)

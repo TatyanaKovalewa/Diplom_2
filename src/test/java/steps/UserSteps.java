@@ -1,5 +1,8 @@
+package steps;
+
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import models.User;
 
 import static io.restassured.RestAssured.given;
 

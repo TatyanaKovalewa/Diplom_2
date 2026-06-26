@@ -1,3 +1,6 @@
+package steps;
+
+import constants.TestConstants;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 
@@ -37,7 +40,7 @@ public class IngredientSteps {
 
     @Step("Получение двух валидных ID ингредиентов")
     public List<String> getTwoIngredientIds() {
-        return getValidIngredientIds(2);
+        return getValidIngredientIds(TestConstants.DEFAULT_INGREDIENTS_COUNT);
     }
 
 }

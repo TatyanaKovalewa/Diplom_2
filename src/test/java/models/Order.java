@@ -1,14 +1,16 @@
+package models;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Order {
 
-    private String email;
-    private String password;
-    private String name;
+    private List<String> ingredients;
 
 }
