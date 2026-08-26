@@ -1,13 +1,13 @@
 # Stellar Burgers API Testing
 
-[![tests](https://github.com/TatyanaKovalewa/stellar-burgers-api-testing/actions/workflows/tests.yml/badge.svg)](https://github.com/TatyanaKovalewa/stellar-burgers-api-testing/actions/workflows/tests.yml)
+[![tests](https://github.com/TatyanaKovalewa/stellar-burgers-api-autotests/actions/workflows/tests.yml/badge.svg)](https://github.com/TatyanaKovalewa/stellar-burgers-api-autotests/actions/workflows/tests.yml)
 [![Java](https://img.shields.io/badge/Java-11-orange)](https://openjdk.org/projects/jdk/11/)
 [![REST Assured](https://img.shields.io/badge/REST%20Assured-5DA5DA)](https://rest-assured.io/)
-[![Allure](https://img.shields.io/badge/Allure-report-FF6A00)](https://tatyanakovalewa.github.io/stellar-burgers-api-testing/)
+[![Allure](https://img.shields.io/badge/Allure-report-FF6A00)](https://tatyanakovalewa.github.io/stellar-burgers-api-autotests/)
 
 **20 тестов, все проходят.** Тесты прогоняются в CI при каждом пуше, Allure-отчёт публикуется автоматически:
 
-**👉 [Открыть Allure-отчёт](https://tatyanakovalewa.github.io/stellar-burgers-api-testing/)**
+**👉 [Открыть Allure-отчёт](https://tatyanakovalewa.github.io/stellar-burgers-api-autotests/)**
 
 ---
 
