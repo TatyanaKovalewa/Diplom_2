@@ -1,4 +1,4 @@
-# Stellar Burgers API Testing
+# Stellar Burgers — API-автотесты
 
 [![tests](https://github.com/TatyanaKovalewa/stellar-burgers-api-autotests/actions/workflows/tests.yml/badge.svg)](https://github.com/TatyanaKovalewa/stellar-burgers-api-autotests/actions/workflows/tests.yml)
 [![Java](https://img.shields.io/badge/Java-11-orange)](https://openjdk.org/projects/jdk/11/)
