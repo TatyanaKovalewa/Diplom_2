@@ -9,6 +9,8 @@
 
 **👉 [Открыть Allure-отчёт](https://tatyanakovalewa.github.io/stellar-burgers-api-autotests/)**
 
+[![Отчёт Allure](./docs/report.png)](https://tatyanakovalewa.github.io/stellar-burgers-api-autotests/)
+
 ---
 
 Проект автоматизации API-тестирования для сервиса **Stellar Burgers**. Реализованы тесты для проверки эндпоинтов регистрации, авторизации пользователей и создания заказов с использованием REST Assured.
